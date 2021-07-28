@@ -19,7 +19,7 @@
   border-radius: 20px 20px 20px 0px
   background-color: #DEE4F0
 .fond3
-  background-color: #B9E8F4 !important
+  background-color: #E7F3FC !important
 .fond4
   background-color: #F2EEFC !important
   border-radius: 50px 
@@ -194,5 +194,119 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2))
   top: -10%
   bottom: 40%
 
+  
 
 
+$anchorBtn_color: #E6F4FF
+$anchorBtn_number_cl: #00BCD4
+
+.anchorBtn 
+  position: relative 
+  display: flex
+  justify-content: start
+  align-items: center
+  height: 75px
+  background-color: $anchorBtn_color
+  margin-right: 2rem
+  margin-bottom: 3rem
+  
+  &::before 
+    content: ""
+    top: 0
+    right: -30px
+    position: absolute
+    border-top: 37px solid transparent
+    border-bottom: 37px solid transparent 
+    border-left: 30px solid $anchorBtn_color
+
+  
+  a 
+    position: relative
+    display: flex
+    justify-content: start
+    align-items: center
+    width: 100%
+    height: 100%
+    padding: 0rem 0rem 0rem 3rem 
+    color: #12263f !important   
+    .anchorBtn__tag      
+      position: absolute         
+      top: -15px
+      left: -15px
+      display: inline-block  
+      //padding: 0.7rem 0.5rem;
+      background-color: $anchorBtn_number_cl  
+      .anchorBtn__number 
+        position: relative
+        width: 50px        
+        h3 
+          padding: 0.7rem 0                         
+          margin-bottom: 0 !important
+          color: white
+          font-weight: 700
+          font-size: 20pt     
+          text-align: center
+ 
+    .anchorBtn__number::before 
+      content: ""
+      position: absolute
+      top: 51.5px
+      left: 1px
+      width: 0
+      height: 0
+      border-left: 15px solid transparent    
+      border-top: 15px solid lighten($anchorBtn_number_cl, 30%)       
+          
+    .anchorBtn__body 
+      p 
+        margin-bottom: 0 !important
+.anchorHeader 
+  position: relative
+  padding: 1rem 1rem 1rem 3rem
+  background-color: $anchorBtn_color
+  margin-bottom: 2rem 
+  &__number 
+    position: absolute
+    top: -15px
+    left: -15px
+    display: inline-block  
+    padding: 0.7rem 1rem
+    background-color: $anchorBtn_number_cl
+    &::before 
+      content: ""
+      position: absolute
+      top: 50.5px
+      left: 1px
+      width: 0
+      height: 0 
+      border-left: 15px solid transparent     
+      border-top: 15px solid lighten($anchorBtn_number_cl, 30%)
+    
+    h3 
+      margin-bottom: 0 !important
+      color: white
+      font-weight: 700
+      font-size: 20pt     
+  
+  
+  &__body 
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    p 
+      margin-bottom: 0 !important
+      font-size: 14pt !important
+      font-weight: 600
+    
+    .anchorHeader__btn  
+      a 
+        display: inline-block
+        padding: 0.55rem 1rem       
+        color: white
+        text-align: center    
+        font-weight: 700
+        background-color: lighten($anchorBtn_number_cl, 30%)
+        transition: all 0.25s ease-in-out
+        &:hover 
+          background-color: $anchorBtn_number_cl

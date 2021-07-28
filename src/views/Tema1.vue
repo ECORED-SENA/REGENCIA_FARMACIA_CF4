@@ -85,18 +85,96 @@
     separador
     #t_1_3.titulo-segundo
       h2 1.3	Mecanismos establecidos por la Constitución para garantizar el cumplimiento de los derechos fundamentales en salud
-    figure
-      img(src='@/assets/tema1/img-6-.svg')
+
+    .row.justify-content-around.align-items-center
+      .row.col-11
+        .row.mt-5
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#1")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 1
+                .anchorBtn__body
+                  p Derecho de petición 
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#2")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 2
+                .anchorBtn__body
+                  p Entidades que asesoran para presentar peticiones
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#3")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 3
+                .anchorBtn__body
+                  p ¿Qué incluye un derecho de petición?
+       
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#4")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 4
+                .anchorBtn__body
+                  p Acción de tutela 
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#5")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 5
+                .anchorBtn__body
+                  p Características de una acción de tutela:
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#6")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 6
+                .anchorBtn__body
+                  p Características, requisitos y quien la presenta
+                    
+        .row.justify-content-around.align-items-center
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#7")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 7
+                .anchorBtn__body
+                  p ¿Quién puede presentar una acción de tutela? 
+          .col-md-6.col-lg-4
+            .anchorBtn
+              a(href="#8")
+                .anchorBtn__tag
+                  .anchorBtn__number
+                    h3 8
+                .anchorBtn__body
+                  p Autoridades Judiciales ante las cuales se puede presentar la acción de tutela
+
+                    
 
 
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 1
+        .anchorHeader__body
+          p Derecho de petición
+          .anchorHeader__btn
+            a(href="#1") ^
       .row
-        .col-md-5
+        .col-md-5.mb-5
           figure
             img(src='@/assets/tema1/img-7.svg')
                
         .col-md-7.mb-4.mb-md-0
-          h3 Derecho de petición 
+         
           p La Constitución Política de Colombia en su Artículo 23 ha concedido a toda persona natural o jurídica, ciudadanos colombianos o extranjeros, la facultad que tiene toda persona para presentar peticiones respetuosas ante las autoridades o entidades públicas o privadas. ya sea por motivos de interés general o particular. 
           p Un derecho de petición sirve para: 
           .ul.lista-ul--color
@@ -116,13 +194,24 @@
               i.ii.fas.fa-atom
               p Sugerir mejor calidad en el servicio. 
 
+
+
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 2
+        .anchorHeader__body
+          p Entidades que asesoran para presentar peticiones
+          .anchorHeader__btn
+            a(href="#2") ^
+      
       .row
         .col-md-5
-          figure
+          figure.mb-3
             img(src='@/assets/tema1/img-8.svg')
                
         .col-md-7.mb-4.mb-md-0
-          h3 Entidades que asesoran para presentar peticiones
+          
           p Existen entidades públicas y privadas que asesoran la presentación de peticiones: 
           .ul.lista-ul--color
             li 
@@ -145,14 +234,22 @@
       figure
             img(src='@/assets/tema1/img-9.svg')
                
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 3
+        .anchorHeader__body
+          p ¿Qué incluye un derecho de petición?
+          .anchorHeader__btn
+            a(href="#3") ^
+      
       .row
-        .col-md-5
+        .col-md-5.mb-3
           figure
             img(src='@/assets/tema1/img-10.svg')
                
         .col-md-7.mb-4.mb-md-0
-          h3 ¿Qué incluye un derecho de petición?
+          
           ol.lista-ol--cuadro
             li 
               .lista-ol--cuadro__vineta.fms
@@ -186,14 +283,22 @@
               .lista-ol--cuadro__vineta.fms
                 span h
               | Pruebas o documentos que soporten la petición (anexos).
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 4
+        .anchorHeader__body
+          p Acción de tutela
+          .anchorHeader__btn
+            a(href="#4") ^
+      
       .row
         .col-md-5
-          figure
+          figure.mb-5
             img(src='@/assets/tema1/img-11.svg')
                
         .col-md-7.mb-4.mb-md-0
-          h3 Acción de tutela
+          
           p Procede para exigir el cumplimiento o respuesta de un derecho de petición cuando, como consecuencia de su no atención, se viola un derecho fundamental del peticionario. Por regla general, la tutela no se puede interponer para conseguir que se le dé respuesta a un derecho de petición, pero si el hecho de no atender un derecho de petición vulnera o afecta un derecho constitucional considerado fundamental, la tutela procede de forma excepcional.
 
           .cajon.color-primario.fond3.p-4.mb-4
@@ -202,14 +307,22 @@
               b Artículo 86 de la Constitución Política de 1991 
             p
               b Artículo 10 del Decreto 2591 de 1991
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 5
+        .anchorHeader__body
+          p Características de una acción de tutela:
+          .anchorHeader__btn
+            a(href="#5") ^
+      
       .row
         .col-md-5
-          figure
+          figure.mb-5
             img(src='@/assets/tema1/img-12.svg')
                
         .col-md-7.mb-4.mb-md-0
-          h3 Características de una acción de tutela:
+          
           .ul.lista-ul--color
             li 
               i.ii.fas.fa-atom
@@ -220,10 +333,18 @@
             li 
               i.ii.fas.fa-atom
               p La celeridad, ya que su propósito es el de garantizar, sin demora, la protección solicitada. 
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 6
+        .anchorHeader__body
+          p Características, requisitos y quien la presenta
+          .anchorHeader__btn
+            a(href="#6") ^
+      
       .row
         .col-md-5
-          figure
+          figure.mb-5
             img(src='@/assets/tema1/img-13.svg')
                
         .col-md-7.mb-4.mb-md-0
@@ -244,10 +365,18 @@
             li 
               i.ii.fas.fa-atom
               p Juramento que indica que no se ha presentado otra acción de tutela por los mismos hechos.
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 7
+        .anchorHeader__body
+          p ¿Quién puede presentar una acción de tutela?
+          .anchorHeader__btn
+            a(href="#7") ^
+      
       .row
         .col-md-5
-          figure
+          figure.mb-5
             img(src='@/assets/tema1/img-14.svg')
                
         .col-md-7.mb-4.mb-md-0
@@ -268,10 +397,18 @@
             li 
               i.ii.fas.fa-atom
               p El Defensor del Pueblo, los Personeros Distritales o Municipales y la Procuraduría General de la Nación pueden presentar acciones de tutela para la defensa de los derechos fundamentales de las personas que lo requieran.
-
+    .row.fond-1.p-5.mb-5
+      .anchorHeader
+        .anchorHeader__number
+          h3 8
+        .anchorHeader__body
+          p Autoridades Judiciales ante las cuales se puede presentar la acción de tutela
+          .anchorHeader__btn
+            a(href="#8") ^
+      
       .row.mb-5
         .col-md-6.d-flex
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -279,7 +416,7 @@
                
         .col-md-6.d-flex
 
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -294,7 +431,7 @@
 
       .row.mb-5
         .col-md-6.d-flex
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -302,7 +439,7 @@
                
         .col-md-6.d-flex
 
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -311,7 +448,7 @@
 
       .row.mb-5
         .col-md-6.d-flex
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -319,14 +456,14 @@
                
         .col-md-6.d-flex
 
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
               p Ante los Tribunales Administrativos o la Sala Disciplinaria del Consejo Seccional de la Judicatura se promueve la acción de tutela contra Procuradores que intervienen ante Tribunales o Altas Cortes.
       .row.mb-5
         .col-md-6.d-flex
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -334,7 +471,7 @@
                
         .col-md-6.d-flex
 
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
@@ -342,14 +479,14 @@
 
       .row.mb-5
         .col-md-6.d-flex
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
               p Ante la Corte Suprema de Justicia o el Consejo de Estado se interpone la acción de tutela contra estas entidades respectivamente. Su reparto será ante la misma Corporación y se resolverá por la Sala de Casación, Sección o Subsección que corresponda.
                
         .col-md-6.d-flex
-          .crd_01
+          .crd_01.mb-sm-5
             .crd_01__icon
               img(src="@/assets/tema1/img-15.svg", alt="alt").class          
             .crd_01__txt
