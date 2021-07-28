@@ -8,7 +8,7 @@
         span 3
       h1 Ley de participación ciudadana
     
-    p.mb-4 Con la Resolución 2063 de 2017 el Ministerio de Salud y Protección Social adoptó la Política de Participación en Salud del PPSS, que tiene como objetivo involucrar a la comunidad en la organización, gestión y supervisión del sistema de salud en general. La coordinación y asistencia técnica del PSPP está liderada por el Territorial de Salud de la Oficina de Gestión Territorial, Emergencias y Desastres, y por las autoridades locales que inician la gestión de estos procesos. También están encargados de fomentar la participación ciudadana en las actividades de difusión, promoción y garantía de los derechos humanos.
+    p.mb-5 Con la Resolución 2063 de 2017 el Ministerio de Salud y Protección Social adoptó la Política de Participación en Salud del PPSS, que tiene como objetivo involucrar a la comunidad en la organización, gestión y supervisión del sistema de salud en general. La coordinación y asistencia técnica del PSPP está liderada por el Territorial de Salud de la Oficina de Gestión Territorial, Emergencias y Desastres, y por las autoridades locales que inician la gestión de estos procesos. También están encargados de fomentar la participación ciudadana en las actividades de difusión, promoción y garantía de los derechos humanos.
     h3 La Ley de participación ciudadana se apunta bajo tres pilares fundamentales:
 
     .row.justify-content-around.align-items-center 
@@ -38,7 +38,7 @@
               img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
           .crd_03__txt
             p.mb-0.lii #[strong Efectividad:] si los desenlaces se dieron acordes con las solicitudes, apoyos y necesidades de los usuarios. 
-    p Como ciudadanos es importante conocer las normas y los espacios que permiten velar por el cumplimiento del derecho a la salud en el país. En Colombia, el control y veeduría ciudadana al cumplimiento del derecho a la salud se encuentra establecido principalmente en las siguientes normas:
+    p.mb-5  Como ciudadanos es importante conocer las normas y los espacios que permiten velar por el cumplimiento del derecho a la salud en el país. En Colombia, el control y veeduría ciudadana al cumplimiento del derecho a la salud se encuentra establecido principalmente en las siguientes normas:
 
     .row.justify-content-around.mb-5
       .row.col-11.justify-content-around
@@ -54,7 +54,7 @@
           h3.text-center Resolución 2063 de 2017 
           p.text-center Se adoptó la Política de Participación Social en Salud.
 
-    p De acuerdo con el Decreto 780 de 2016 se definen 3 niveles de participación en salud: ciudadano, comunitario e institucional. Los niveles ciudadano y comunitario se clasifican como formas de participación social en salud; no requieren de los espacios dispuestos por las instituciones como los comités o asociaciones de usuarios, sino que pueden ser llevados a cabo por cualquier ciudadano o grupo de ciudadanos interesados en participar en la planeación, gestión, evaluación y veeduría del derecho a la salud. Un ejemplo puede ser el exigir a las instituciones prestadores de servicios de salud contar con intérpretes para facilitar el acceso a servicios de salud a personas pertenecientes a pueblos étnicos o con discapacidad auditiva (lenguaje de señas). En el nivel institucional, interactúa la ciudadanía con los servidores públicos y privados, fomentando la creación de las asociaciones de usuarios y, por ende, la gestión y pronta respuesta a las solicitudes de los mismos.
+    p.mb-5  De acuerdo con el Decreto 780 de 2016 se definen 3 niveles de participación en salud: ciudadano, comunitario e institucional. Los niveles ciudadano y comunitario se clasifican como formas de participación social en salud; no requieren de los espacios dispuestos por las instituciones como los comités o asociaciones de usuarios, sino que pueden ser llevados a cabo por cualquier ciudadano o grupo de ciudadanos interesados en participar en la planeación, gestión, evaluación y veeduría del derecho a la salud. Un ejemplo puede ser el exigir a las instituciones prestadores de servicios de salud contar con intérpretes para facilitar el acceso a servicios de salud a personas pertenecientes a pueblos étnicos o con discapacidad auditiva (lenguaje de señas). En el nivel institucional, interactúa la ciudadanía con los servidores públicos y privados, fomentando la creación de las asociaciones de usuarios y, por ende, la gestión y pronta respuesta a las solicitudes de los mismos.
 
 
 

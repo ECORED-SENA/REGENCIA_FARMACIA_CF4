@@ -56,7 +56,7 @@
     p.mb-5 Estos métodos se establecen de manera dinámica por medio de un mecanismo legal que los usuarios pueden utilizar para presentar quejas y reclamos, cuyo objetivo es brindar una respuesta rápida y satisfactoria a sus quejas, procesando la información del usuario. Es común que todas las organizaciones públicas o privadas denuncien o resuelvan una situación de manera oportuna y efectiva. A continuación, se podrá conocer las definiciones de estos métodos: 
 
     .row.justify-content-around.align-items-center
-      .col-8
+      .col-lg-6
         ImagenInfografica.mb-5
 
           template(v-slot:imagen)
@@ -86,7 +86,7 @@
     #t_1_3.titulo-segundo
       h2 1.3	Mecanismos establecidos por la Constitución para garantizar el cumplimiento de los derechos fundamentales en salud
 
-    .row.justify-content-around.align-items-center
+    #base.row.justify-content-around.align-items-center
       .row.col-11
         .row.mt-5
           .col-md-6.col-lg-4
@@ -160,14 +160,15 @@
                     
 
 
-    .row.fond-1.p-5.mb-5
+    #1.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 1
         .anchorHeader__body
           p Derecho de petición
           .anchorHeader__btn
-            a(href="#1") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       .row
         .col-md-5.mb-5
           figure
@@ -196,14 +197,15 @@
 
 
 
-    .row.fond-1.p-5.mb-5
+    #2.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 2
         .anchorHeader__body
           p Entidades que asesoran para presentar peticiones
           .anchorHeader__btn
-            a(href="#2") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row
         .col-md-5
@@ -231,17 +233,29 @@
       p Si el derecho de petición no es respondido dentro de estos plazos, el funcionario público incurre en causal de mala conducta, y permite al peticionario recurrir a la acción de tutela para exigir el amparo de sus derechos.
 
       p Todas las entidades están obligadas a recibir, informar o responder su petición en los siguientes plazos: 
-      figure
-            img(src='@/assets/tema1/img-9.svg')
+      .row
+        .col-3
+          figure
+            img(src='@/assets/tema1/img-9-1.svg')
+        .col-3
+          figure
+            img(src='@/assets/tema1/img-9-2.svg')
+        .col-3
+          figure
+            img(src='@/assets/tema1/img-9-3.svg')
+        .col-3
+          figure
+            img(src='@/assets/tema1/img-9-4.svg')                                    
                
-    .row.fond-1.p-5.mb-5
+    #3.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 3
         .anchorHeader__body
           p ¿Qué incluye un derecho de petición?
           .anchorHeader__btn
-            a(href="#3") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row
         .col-md-5.mb-3
@@ -283,14 +297,15 @@
               .lista-ol--cuadro__vineta.fms
                 span h
               | Pruebas o documentos que soporten la petición (anexos).
-    .row.fond-1.p-5.mb-5
+    #4.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 4
         .anchorHeader__body
           p Acción de tutela
           .anchorHeader__btn
-            a(href="#4") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row
         .col-md-5
@@ -307,14 +322,15 @@
               b Artículo 86 de la Constitución Política de 1991 
             p
               b Artículo 10 del Decreto 2591 de 1991
-    .row.fond-1.p-5.mb-5
+    #5.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 5
         .anchorHeader__body
           p Características de una acción de tutela:
           .anchorHeader__btn
-            a(href="#5") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row
         .col-md-5
@@ -333,14 +349,15 @@
             li 
               i.ii.fas.fa-atom
               p La celeridad, ya que su propósito es el de garantizar, sin demora, la protección solicitada. 
-    .row.fond-1.p-5.mb-5
+    #6.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 6
         .anchorHeader__body
           p Características, requisitos y quien la presenta
           .anchorHeader__btn
-            a(href="#6") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row
         .col-md-5
@@ -365,14 +382,15 @@
             li 
               i.ii.fas.fa-atom
               p Juramento que indica que no se ha presentado otra acción de tutela por los mismos hechos.
-    .row.fond-1.p-5.mb-5
+    #7.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 7
         .anchorHeader__body
           p ¿Quién puede presentar una acción de tutela?
           .anchorHeader__btn
-            a(href="#7") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row
         .col-md-5
@@ -397,14 +415,15 @@
             li 
               i.ii.fas.fa-atom
               p El Defensor del Pueblo, los Personeros Distritales o Municipales y la Procuraduría General de la Nación pueden presentar acciones de tutela para la defensa de los derechos fundamentales de las personas que lo requieran.
-    .row.fond-1.p-5.mb-5
+    #8.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number
           h3 8
         .anchorHeader__body
           p Autoridades Judiciales ante las cuales se puede presentar la acción de tutela
           .anchorHeader__btn
-            a(href="#8") ^
+            a(href="#base")
+              .fas.fa-chevron-up
       
       .row.mb-5
         .col-md-6.d-flex

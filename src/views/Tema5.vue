@@ -10,7 +10,7 @@
     
     p.mb-4 El modelo de #[strong Atención integral centrada en la persona] representa un cambio cultural en todas las organizaciones de salud; es dar un giro de 180° en el concepto de #[strong curar] las enfermedades, por promover la salud, robusteciendo en el individuo y la comunidad sus capacidades, fortalezas y habilidades.
 
-    p El sistema de salud requiere un nuevo direccionamiento, concebir los elementos básicos de la relación de asistencia – servicio para favorecer el bienestar de las personas y/o comunidades, con el fin de garantizar calidad de vida, desde la premisa que lo más importante no es atender las enfermedades y minimizar  las discapacidades, por cuanto es fundamental gestionar el mantenimiento de las capacidades y fortalezas de las personas, para que desarrollen actividades de promoción de la salud, realmente satisfactorias. Por ello, se requiere: 
+    p.mb-5 El sistema de salud requiere un nuevo direccionamiento, concebir los elementos básicos de la relación de asistencia – servicio para favorecer el bienestar de las personas y/o comunidades, con el fin de garantizar calidad de vida, desde la premisa que lo más importante no es atender las enfermedades y minimizar  las discapacidades, por cuanto es fundamental gestionar el mantenimiento de las capacidades y fortalezas de las personas, para que desarrollen actividades de promoción de la salud, realmente satisfactorias. Por ello, se requiere: 
 
      .row.justify-content-around.mb-5
       .row.col-11.justify-content-around
@@ -26,30 +26,12 @@
           h3.text-center La verdadera empatía significa 
           p.text-center Mirar, hablar, sonreír, mostrar calidez, escuchar, manifestar sensibilidad y comprensión ante la situación del otro es un compromiso activo y una responsabilidad; humanizar la realidad del otro, las relaciones, las conductas y el entorno, especialmente cuando se toma conciencia de la vulnerabilidad ajena y de la necesidad de ayuda a los pacientes.
     
-    p Desde hace unos 15 años en diferentes instituciones de salud se han venido desarrollando distintas propuestas encaminadas a mejorar la humanización de la atención sanitaria y la calidad percibida, mediante la elaboración de programas con propuestas como la “Humanización de la asistencia” con objetivos muy puntuales:
+    p.mb-5 Desde hace unos 15 años en diferentes instituciones de salud se han venido desarrollando distintas propuestas encaminadas a mejorar la humanización de la atención sanitaria y la calidad percibida, mediante la elaboración de programas con propuestas como la “Humanización de la asistencia” con objetivos muy puntuales:
     
     
     
     
     
-    
-    
-    
-    .row.justify-content-around.mb-5
-      .row.col-11.justify-content-around
-        .col-lg-5.fond4.p-5.mb-3.mx-0
-          figure.mb-5
-            img.img-c.img-120(src="@/assets/tema3/img-2.svg")
-          h3.text-center Decreto 1757 de 1994
-          p.text-center Se encuentra compilado junto con otras normas en materia de salud en el Decreto 780 de 2016, el cual estableció las formas y mecanismos para la participación social en salud
-                
-        .col-lg-5.fond5-.p-5.mb-3.mx-0
-          figure.mb-5
-            img.img-c.img-120(src="@/assets/tema3/img-3.svg")
-          h3.text-center Resolución 2063 de 2017 
-          p.text-center Se adoptó la Política de Participación Social en Salud.
-
-    p Desde hace unos 15 años en diferentes instituciones de salud se han venido desarrollando distintas propuestas encaminadas a mejorar la humanización de la atención sanitaria y la calidad percibida, mediante la elaboración de programas con propuestas como la “Humanización de la asistencia” con objetivos muy puntuales:
 
   .container.tarjeta.tarjeta--blanca.fond6
     .row.justify-content-around

@@ -8,7 +8,7 @@
         span 2
       h1 Sistema de Información y Atención al Usuario – SIAU
     
-    p.mb-4 Las instituciones prestadoras de servicios de salud son responsables de evaluar el nivel de satisfacción de los usuarios, familiares, cuidadores y visitantes; para lograrlo aplican diferentes instrumentos que les permitan conocer el grado de satisfacción de los clientes tanto internos como externos; a partir de esta información se generan oportunidades para mejorar, que permiten aplicar acciones correctivas y aprender del error. 
+    p.mb-5 Las instituciones prestadoras de servicios de salud son responsables de evaluar el nivel de satisfacción de los usuarios, familiares, cuidadores y visitantes; para lograrlo aplican diferentes instrumentos que les permitan conocer el grado de satisfacción de los clientes tanto internos como externos; a partir de esta información se generan oportunidades para mejorar, que permiten aplicar acciones correctivas y aprender del error. 
     .row.justify-content-center(data-aos="zoom-in-up")
       .col-10.justify-content-center
         .row.justify-content-center.mb-5.fond4.align-self-center.mx-3
@@ -20,7 +20,7 @@
 
     p El Sistema de Información y Atención al Usuario (SIAU) es una herramienta que se utiliza para identificar las necesidades y expectativas de los clientes internos y externos de las instituciones prestadoras de servicios de salud, con el propósito de mejorar la calidad de los servicios brindados. 
 
-    p El SIAU se considera un vínculo entre la estructura organizacional y el usuario, utilizado como medio para fortalecer los procesos institucionales, analizando la información recolectada y monitoreando los planes de mejora, creando mecanismos para alcanzar las metas y políticas misionales; además, monitorea y administra rápidamente las solicitudes o sugerencias, quejas, peticiones y celebraciones (PQRSF) realizadas por los usuarios y/o familiares que califican el índice de satisfacción del usuario.
+    p.mb-5  El SIAU se considera un vínculo entre la estructura organizacional y el usuario, utilizado como medio para fortalecer los procesos institucionales, analizando la información recolectada y monitoreando los planes de mejora, creando mecanismos para alcanzar las metas y políticas misionales; además, monitorea y administra rápidamente las solicitudes o sugerencias, quejas, peticiones y celebraciones (PQRSF) realizadas por los usuarios y/o familiares que califican el índice de satisfacción del usuario.
 
     .row.justify-content-around.align-items-center.izq.p-5 
 
