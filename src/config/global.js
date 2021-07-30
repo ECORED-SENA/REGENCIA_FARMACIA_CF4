@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Evaluación de la atención en salud',
     descripcionCurso:
-      'Este componente formativo describe la importancia de evaluar la satisfacción del usuario en los servicios de salud, dando respuesta de manera oportuna y asertiva a todas las peticiones, sugerencias, quejas y reclamos. <br>  En la primera línea de atención al usuario se va a encontrar los diferentes tipos de clientes, quienes requieren con urgencia una respuesta clara, veraz y humanizada a las diferentes necesidades que los rodean en la atención en salud.',
+      'Este componente formativo describe la importancia de evaluar la satisfacción del usuario en los servicios de salud, dando respuesta de manera oportuna y asertiva a todas las peticiones, sugerencias, quejas y reclamos. <br> <br>  En la primera línea de atención al usuario se va a encontrar los diferentes tipos de clientes, quienes requieren con urgencia una respuesta clara, veraz y humanizada a las diferentes necesidades que los rodean en la atención en salud.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -280,7 +280,7 @@ export default {
       },
 
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

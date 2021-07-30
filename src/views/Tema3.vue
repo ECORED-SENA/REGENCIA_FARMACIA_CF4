@@ -22,22 +22,19 @@
             .crd_01__icon
               img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
           .crd_03__txt
-            p.mb-0.lii #[strong Eficiencia:] si el servicio se llevó a cabo de acuerdo con la mejor relación, costos, resultados. 
+            p.mb-0.lii Mecanismos de participación ciudadana, la flexibilización que promueve y garantiza esta ley para utilizarlos de manera frecuente y efectiva.  
         .crd_03.mb-4.sep.pt-4
           .crd_01__icon
               img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
           .crd_03__txt
-            p.mb-0.lii #[strong Eficacia:] si los resultados pronosticados fueron obtenidos en términos de cantidad y calidad.
-        .crd_03.mb-4.sep.pt-4
-          .crd_01__icon
-              img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class       
-          .crd_03__txt
-            p.mb-0.lii #[strong Eficacia:] si los resultados pronosticados fueron obtenidos en términos de cantidad y calidad.            
+            p.mb-0.lii Rendición pública de cuentas y el Control social a lo público, función que permite brindar al ciudadano las herramientas necesarias para consolidar su rol de observador y garante de los movimientos y decisiones de la administración pública, en cada uno de sus territorios.        
         .crd_03.mb-4.sep2.py-4
           .crd_01__icon
               img.img-80(src="@/assets/tema3/img-1-.svg", alt="alt").class        
           .crd_03__txt
-            p.mb-0.lii #[strong Efectividad:] si los desenlaces se dieron acordes con las solicitudes, apoyos y necesidades de los usuarios. 
+            p.mb-0.lii Coordinación y promoción de la participación ciudadana en el Consejo Nacional de Participación.
+
+
     p.mb-5  Como ciudadanos es importante conocer las normas y los espacios que permiten velar por el cumplimiento del derecho a la salud en el país. En Colombia, el control y veeduría ciudadana al cumplimiento del derecho a la salud se encuentra establecido principalmente en las siguientes normas:
 
     .row.justify-content-around.mb-5
@@ -90,8 +87,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.text-white Protocolo de atención al ciudadano sector salud
-                  p.mb-1.texto-blanco Conoce el protocolo de atención establecido para el ciudadano, en el cual se especifican los enfoques para este.
+                  h3.text-white Control social al derecho a la salud
+                  p.mb-1.texto-blanco En las páginas 60 y 61 puede conocer sobre los espacios de participación ciudadana, resaltando las funciones que tienen en el control y veeduría ciudadana del derecho a la salud.
                   
                 .col-sm-auto
                   a.boton.bb(:href="('https://www.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/34232755')" target="_blank")

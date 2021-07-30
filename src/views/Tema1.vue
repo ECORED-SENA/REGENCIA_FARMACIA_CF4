@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 1
       h1 Satisfacción del usuario
-
+    p.mb-5 La satisfacción del usuario con los servicios médicos recibidos depende de muchos factores; se presenta una relación directa entre la atención brindada, el valor y las expectativas del usuario; esto determina el uso, la conexión y el resultado del servicio. Todo esto se relaciona con varios aspectos del servicio o atención de primera línea, en la que se incluyen todas las interacciones personales, desde el personal de vigilancia hasta el gerente y los especialistas más mencionados. 
     figure.px-3
       img(src='@/assets/tema1/img-1-.svg')
 
@@ -65,27 +65,29 @@
               
 
           .tarjeta.tt-n.p-3(x="17%" y="41%")
-            .h5.mb-2 Peticiones de información: 
+            .h5.mb-2 Peticiones de información 
             p Se solicita acceso a la información ante las autoridades, para el conocimiento de una actuación en un acto concreto y determinado.  
           .tarjeta.tt-n.p-3(x="50%" y="13%")
-            .h5.mb-2 Quejas: 
+            .h5.mb-2 Quejas
             p Se ponen en conocimiento de las autoridades las conductas irregulares de empleados oficiales o particulares, a quienes se ha adjudicado la prestación de un servicio público.
           
           .tarjeta.tt-n.p-3(x="82%" y="41%")
-            .h5.mb-2 Reclamos: 
+            .h5.mb-2 Reclamos 
             p Manifestación de inconformidad con la prestación de un servicio o con la atención prestada por parte de un funcionario.      
 
           .tarjeta.tt-n.p-3(x="72%" y="80%")
-            .h5.mb-2 Sugerencias: 
+            .h5.mb-2 Sugerencias
             p Es la proposición o indicación que se ofrece, con el propósito de influir en el mejoramiento de un proceso, relacionado con la prestación de un servicio.
 
           .tarjeta.tt-n.p-3(x="27%" y="80%")
-            .h5.mb-2 Felicitaciones: 
+            .h5.mb-2 Felicitaciones
             p Agradecimiento por la atención brindada, luego de recibir un trato digno y resolver una situación de salud.
     separador
     #t_1_3.titulo-segundo
       h2 1.3	Mecanismos establecidos por la Constitución para garantizar el cumplimiento de los derechos fundamentales en salud
-
+    .row
+      figure
+        img(src='@/assets/tema1/img-6.svg')
     #base.row.justify-content-around.align-items-center
       .row.col-11
         .row.mt-5
@@ -342,13 +344,13 @@
           .ul.lista-ul--color
             li 
               i.ii.fas.fa-atom
-              p La informalidad no requiere de abogado y la exigencia probatoria es mínima.
+              p La #[strong informalidad] no requiere de abogado y la exigencia probatoria es mínima.
             li 
               i.ii.fas.fa-atom
-              p La subsidiariedad debido a que procede cuando no se dispone de otro medio de defensa judicial.
+              p La #[strong subsidiariedad] debido a que procede cuando no se dispone de otro medio de defensa judicial.
             li 
               i.ii.fas.fa-atom
-              p La celeridad, ya que su propósito es el de garantizar, sin demora, la protección solicitada. 
+              p La #[strong celeridad], ya que su propósito es el de garantizar, sin demora, la protección solicitada. 
     #6.row.fond-1.p-5.mb-5
       .anchorHeader
         .anchorHeader__number

@@ -65,7 +65,7 @@
               p Accesibilidad externa e interna.
             li 
               i.ii.fas.fa-atom
-              p Confort de las instalaciones.
+              p #[em Confort] de las instalaciones.
 
 
 
